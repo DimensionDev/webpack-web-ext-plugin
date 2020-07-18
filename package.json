@@ -2,22 +2,20 @@
   "name": "@dimensiondev/webpack-web-ext-plugin",
   "version": "0.0.2",
   "description": "webpack web ext plugin",
+  "repository": "https://github.com/DimensionDev/webpack-web-ext-plugin",
   "license": "MIT",
   "author": "SunriseFox",
   "main": "index.js",
   "dependencies": {
     "inquirer": "^7.0.0"
   },
+  "devDependencies": {
+    "@types/webpack": "^4.41.14"
+  },
   "peerDependencies": {
     "web-ext": "*"
   },
   "engines": {
     "node": ">=12.0.0"
-  },
-  "devDependencies": {
-    "@types/webpack": "^4.41.14"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   }
 }

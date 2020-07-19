@@ -4,7 +4,7 @@
   "description": "webpack web ext plugin",
   "repository": "https://github.com/DimensionDev/webpack-web-ext-plugin",
   "license": "MIT",
-  "author": "SunriseFox",
+  "author": "Dimension",
   "main": "index.js",
   "dependencies": {
     "inquirer": "^7.0.0"
@@ -19,8 +19,6 @@
     "node": ">=12.0.0"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com/DimensionDev",
-    "tag": "unstable"
+    "registry": "https://npm.pkg.github.com/DimensionDev"
   }
 }

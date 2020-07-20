@@ -1,18 +1,24 @@
 {
-  "name": "webpack-web-ext-plugin",
-  "version": "0.0.1",
+  "name": "@dimensiondev/webpack-web-ext-plugin",
+  "version": "0.0.3",
   "description": "webpack web ext plugin",
-  "main": "index.js",
-  "author": "SunriseFox",
+  "repository": "https://github.com/DimensionDev/webpack-web-ext-plugin",
   "license": "MIT",
-  "private": true,
-  "engines": {
-    "node": ">=12.0.0"
-  },
+  "author": "Dimension",
+  "main": "index.js",
   "dependencies": {
     "inquirer": "^7.0.0"
   },
+  "devDependencies": {
+    "@types/webpack": "^4.41.14"
+  },
   "peerDependencies": {
     "web-ext": "*"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/DimensionDev"
   }
 }
